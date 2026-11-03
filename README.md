@@ -21,6 +21,8 @@ Developed by: Harsita Easwaran
 RegisterNumber:  24013629
 */
 ```
+
+```
 import pandas as pd 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -63,6 +65,7 @@ mae=mean_absolute_error(y_test,y_pred)
 print( 'MAE = ',mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
+```
 
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
