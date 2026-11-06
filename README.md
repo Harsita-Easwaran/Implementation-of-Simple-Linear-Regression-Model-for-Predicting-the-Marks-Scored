@@ -8,17 +8,19 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import the standard Libraries.
+2.Set variables for assigning dataset values.
+3.Import linear regression from sklearn.
+4.Assign the points for representing in the graph.
+5.Predict the regression for marks by using the representation of the graph.
+6.Compare the graphs and hence we obtained the linear regression for the given datas.
 
 ## Program:
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
 Developed by: Harsita Easwaran
-RegisterNumber:  24013629
+RegisterNumber:  212224220036
 */
 ```
 
@@ -68,57 +70,11 @@ print("RMSE= ",rmse)
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
-  Hours  Scores
-0    2.5      21
-1    5.1      47
-2    3.2      27
-3    8.5      75
-4    3.5      30
-    Hours  Scores
-20    2.7      30
-21    4.8      54
-22    3.8      35
-23    6.9      76
-24    7.8      86
-[[2.5]
- [5.1]
- [3.2]
- [8.5]
- [3.5]
- [1.5]
- [9.2]
- [5.5]
- [8.3]
- [2.7]
- [7.7]
- [5.9]
- [4.5]
- [3.3]
- [1.1]
- [8.9]
- [2.5]
- [1.9]
- [6.1]
- [7.4]
- [2.7]
- [4.8]
- [3.8]
- [6.9]
- [7.8]]
-[21 47 27 75 30 20 88 60 81 25 85 62 41 42 17 95 30 24 67 69 30 54 35 76
- 86]
-[17.04289179 33.51695377 74.21757747 26.73351648 59.68164043 39.33132858
- 20.91914167 78.09382734 69.37226512]
-[20 27 69 30 62 35 24 86 76]
+<img width="396" height="1130" alt="image" src="https://github.com/user-attachments/assets/fd83cee4-5253-4bc3-8973-8ab8a4ff91c0" />
+<img width="1146" height="1252" alt="image" src="https://github.com/user-attachments/assets/b13aaeb8-bb33-457c-b92d-b2e254ba739d" />
+<img width="1122" height="902" alt="image" src="https://github.com/user-attachments/assets/58ce2eed-341f-460e-b7a0-685d26a28780" />
+<img width="1124" height="1044" alt="image" src="https://github.com/user-attachments/assets/eead263a-d2b4-41ad-acfd-e8f8988ed240" />
 
-![Screenshot 2024-10-29 143922](https://github.com/user-attachments/assets/96241f11-bc68-44e5-83e0-f88f8303c49d)
-
-![Screenshot 2024-10-29 143951](https://github.com/user-attachments/assets/ddcb4e1e-bd7f-48ae-ad11-20561d4d1d18)
-
-MSE =  4.691397441397438
-MAE =  4.691397441397438
-RMSE=  2.1659633979819324
 
 
 
